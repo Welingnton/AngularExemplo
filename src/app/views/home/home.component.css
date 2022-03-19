@@ -17,6 +17,9 @@ header{
     background-color: #020b25;
     height: 100px;
     }
+    img {
+        width: 355px;
+    }
     .menu{
         width: 400px;
         display: flex;
@@ -35,16 +38,18 @@ header{
         display: none;
     }
     .banner{
-       /* background-image:url(../img/banner.png);*/
-        height: 420px;
-        background-repeat: none;
-        background-size: cover;
+        background-color:black;
+    }
+    .banner img{
+        /*background-image:url(../img/banner.png) ;*/
+        height: auto;
+        min-width:100%;
         
     }
     .posicao-texto{
         justify-content: flex-end;
     }
-    .texto-banner h1{
+    /*.texto-banner h1{
         width: 500px;
         color: #fff;
         text-align: flex;
@@ -59,7 +64,7 @@ header{
         font-size: 45px;
         font-family: 'Titillium Web', sans-serif;
         font-weight: bold;
-    }
+    }*/
     .search-box{
         background: #fff;
         height: 42px;
@@ -124,7 +129,6 @@ header{
     .product-name a{
         margin-top: 5px;
          color: #fff;
-         margin: right 5px;
          font-size: 15px;
          font-weight: bolder;
      } 
@@ -191,7 +195,7 @@ header{
         display: flex;
         justify-content: left;
         height: 520px;
-        width: 1334px;
+        width: 1200px;
         background-color: #020b25;
         transform: translateX(0);
         transition: all 0.5s ease-in-out;
@@ -230,7 +234,7 @@ header{
         margin-top: 1px;
         background-color: #020b25;
         height: 180px;
-        width: 1349px;
+        width: 1334px;
         font-family: "Open Sans";
         padding-top: 40px;
         color:#fff;
@@ -285,7 +289,7 @@ header{
     .footer-bottom{
         background: rgb(116, 115, 119);
         height: 45px;
-        width: 1349px;
+        width: 1334px;
         padding: 20px 0;
         text-align: center;
 
@@ -298,58 +302,137 @@ header{
     }
     .footer-bottom span{
         text-transform: uppercase;
-        opacity: .6;
+        opacity: ;
+        color: #fff;
         font-weight: 200;
 
     }
     @media screen and (max-width: 1200px) {
-        .container-grid{
-            width: 50px;
-        }
-        .position-header{
-            width: 20px;
+        header{
+       
+            height: 80px;
+            }
+        header img{
+            width: 250px;
+            margin-left: 20px;
         }
         .menu{
-            width: 20px;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 370px;
         }
         .menu a{
-            font-size: 16px;
-        }
-        .logo{
-            width: 200px;
-    
-        }
-        .search-box{
-           width: 100px;
-        }
-        .banner{
-            font-size: auto;
-        }
-        .footer{
-            width: 20px;
-        }
-    }
-    @media screen and (max-width: 768px) {
-        
-        .barras{
-            display:inline-block;
-        }
-        .menu{
-            display: none;
-            flex-direction: column;
-            width: 200px;
-            position: absolute;
-            top: 0;
-            right: 65px;
-            background-color: ;
+            font-size: 15px;
 
         }
-        .menu a{
-            text-align: center;
+        .search-box{
+            display:none ;
+            
+        }
+        .search-text{
+            display: none;
+        }
+        .banner{
+            height: 300px;
+        }
+        .posicao-texto{
+            justify-content: flex-end;
+        }
+        .texto-banner h1{
+            font-size: 40px;
+            margin-left: 15px;
+        }
+        .texto-banner{
+            font-size: 40px;
+            margin-left: 15px;
+        }
+        .container{
             display: flex;
+            justify-content: left;
+            height: 480px;
+            width: 1200px;
         }
-        .position-header{
-            position: relative;
+        footer{
+            width: 794px;   
         }
+        .footer-bottom{
+            width: 794px;  
         }
+    }      
+    @media screen and (max-width: 768px){
+        header{
+            height: 70px;
+        }
+        header img{
+            width: 200px;
+            margin-left: 20px;
+        }
+        .menu{
+        display: flex;
+        justify-content: space-between;
+        margin-right:720px;
+        display:none;
+        }
+        .menu a{
+            font-size: 10px;
+            display:none;
+        }
+        .search-box{
+            display:none;
+        }
+        .search-text{
+            display: none;
+        }
+        .barras{
+            display:inline-block;
+            margin-right: 750px;
+            font-size: 50px;
+        }
+        .banner{
+            height: 200px;
+            
+        }
+        .posicao-texto{
+            justify-content: flex-end;
+        }
+        .texto-banner h1{
+            
+            font-size: 30px;
+            margin-left: 15px;
+        }
+        .texto-banner{
+        
+            font-size: 30px;
+            margin-left: 15px;
+        }
+        .container{
+            display: flex;
+            justify-content: left;
+            height: 380px;
+            width: 100%;
+        }
+        .product-name{
+            display: flex;
+            flex-direction: column;
+        }  
+       .product-name a{
+            font-size: 10px; 
+        } 
+       .product-name a{
+            font-size: 10px; 
+        }
+        .footer-content h5{
+            font-size: 35px;
+            
+        }
+        footer{
+            width: 514px;
+            height: 200px;
+        }
+        .footer-bottom{
+            width: 514px;  
+        }
+    }
+    
     
