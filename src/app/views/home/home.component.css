@@ -34,7 +34,7 @@ header{
         font-size: 20px;
     }
     .barras{
-        width: 30px;
+        width: 70px;
         display: none;
     }
     .banner{
@@ -233,8 +233,8 @@ header{
     footer{
         margin-top: 1px;
         background-color: #020b25;
-        height: 180px;
-        width: 1334px;
+        height: 185px;
+        width: 1348px;
         font-family: "Open Sans";
         padding-top: 40px;
         color:#fff;
@@ -288,8 +288,8 @@ header{
     }
     .footer-bottom{
         background: rgb(116, 115, 119);
-        height: 45px;
-        width: 1334px;
+        height: 15px;
+        width: 1348px;
         padding: 20px 0;
         text-align: center;
 
@@ -309,13 +309,13 @@ header{
     }
     @media screen and (max-width: 1200px) {
         header{
-       
             height: 80px;
             }
-        header img{
-            width: 250px;
-            margin-left: 20px;
-        }
+        .banner img {
+                min-width: 66%;
+                height: 100%;
+            }
+    
         .menu{
         width: 300px;
         display: flex;
@@ -362,12 +362,18 @@ header{
     }      
     @media screen and (max-width: 768px){
         header{
-            height: 70px;
+            height: 80px;
+            }
+        img{
+            width: 290px;
+            margin-left: 15px;
         }
-        header img{
-            width: 200px;
-            margin-left: 20px;
-        }
+        .banner img {
+                min-width: 40.7%;
+                height: 100%;
+        
+            }
+        
         .menu{
         display: flex;
         justify-content: space-between;
@@ -386,8 +392,7 @@ header{
         }
         .barras{
             display:inline-block;
-            margin-right: 750px;
-            font-size: 50px;
+            margin-right: 720px;
         }
         .banner{
             height: 200px;
