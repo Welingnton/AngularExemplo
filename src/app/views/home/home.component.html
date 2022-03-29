@@ -19,8 +19,8 @@
         <div class="container-grid posicao texto">
           <img src="assets/img/banner.png">
            <div class="texto-banner">
-               <h1></h1>
-                <p></p>
+               <!--<h1></h1>
+                <p></p> !-->
             </div>
         </div>
     </div>
@@ -34,17 +34,17 @@
     <div class="produtos">
       <div class="container">
         <div class="slider">
-          <div class="image">
-            <img src="assets/img/Samsung1.png">
+          <div *ngFor="let novidades of listaNovidades" class="image">
+            <img [src]=novidades.imagem alt="">
             <div class="button">
               <a href="#" class="btn">Buy now</a>
             </div>
           </div>
           <div class="product-details">
             <div class="product-name">
-              <a href="#">Galaxy Z Fold3 5G</a>
-              <a href="#" class="price">$ 5.800,00</a>
-              <span>Pay Monthly $483,00</span>
+             <!-- <a href="#">{{novidades.descricao}}</a>-->
+             <!-- <a href="#" class="price">$ 5.800,00</a>-->
+             <!-- <span>{{novidades.preco}}</span> -->
             </div>
           </div>
         </div>

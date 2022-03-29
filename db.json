@@ -1,0 +1,46 @@
+{
+  "Produtos": [
+    {
+      "id": 1,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "id": 2,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "id": 3,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "id": 4,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "id": 5,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "id": 6,
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades"
+    },
+    {
+      "imagens": "",
+      "titulo": "Games",
+      "descricao": "Novidades da semana",
+      "id": 7
+    }
+  ]
+}
